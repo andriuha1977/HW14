@@ -1,0 +1,28 @@
+.like-std{
+    font-family: Arial;
+    cursor: pointer;
+}
+.like-std input:checked+img{
+    filter: none;
+}
+.like-std input{
+    display: none;
+}
+.like-std input:checked+img+span+span{
+    color: #3eb371;
+    display: inline;
+}
+.like-std input:checked+img+span{
+    display: none;
+}
+.like-std span:nth-child(4){
+    display: none;
+}
+.like-std img{
+    width: 32px;
+    filter: grayscale(100%);
+    transform: translateY(7px)
+}
+.like-std span{
+    color: #777;
+}
